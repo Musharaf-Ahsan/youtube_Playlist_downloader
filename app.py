@@ -41,7 +41,7 @@ def app():
 
     # Get playlist URL and output path from user
     playlist_url = st.text_input("Playlist URL")
-    output_path = st.text_input("Output folder path", value=os.path.expanduser("~/Desktop/YouTube"))
+    output_path = st.text_input("Add path", value=os.path.expanduser("~/Desktop/YouTube"))
 
     # Download playlist when user clicks button
     if st.button("Download Playlist"):
